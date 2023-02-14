@@ -1,6 +1,8 @@
 import React from "react";
 
 const Hello = () => {
+  //With JSX
+
   //   return (
   //     <div className="dummyclass">
   //       <h1>Hello manoj</h1>
