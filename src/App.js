@@ -1,17 +1,26 @@
 //import Greet from "./components/Greet";
-import Welcome from "./components/Welcome";
+//import Welcome from "./components/Welcome";
 // import Hello from "./components/Hello";
+// import Message from "./components/Message";
+
+import Counter from "./components/Counter";
 
 function App() {
   return (
-    <div className="App">
+    <div>
+      <nav>
+        <h1>This is React Tutorial</h1>
+      </nav>
+
       {/* <Greet name="manoj" />
       <Greet name="jo" />
       <Greet>This is children props</Greet> */}
-      <Welcome name="manoj" work="devloper" />
+      {/* <Welcome name="manoj" work="devloper" />
       <Welcome name="jo" work="devoops" />
-      <Welcome name="akhil" work="master" />
+      <Welcome name="akhil" work="master" /> */}
       {/* <Hello /> */}
+      {/* <Message /> */}
+      <Counter />
     </div>
   );
 }
