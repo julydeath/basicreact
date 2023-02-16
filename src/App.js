@@ -4,10 +4,12 @@
 // import Message from "./components/Message";
 // import Counter from "./components/Counter";
 // import FunctionClick from "./components/FunctionClick";
-
-import Form from "./components/Form";
-
+//import Form from "./components/Form";
 //import ClassClicked from "./components/ClassClick";
+//import LifecycleA from "./components/LifecycleA";
+//import ClassCounter from "./components/ClassCounter";
+
+import HookCounter from "./components/HookCounter";
 
 function App() {
   return (
@@ -27,7 +29,10 @@ function App() {
       {/* <Counter /> */}
       {/* <FunctionClick /> */}
       {/* <ClassClicked></ClassClicked> */}
-      <Form />
+      {/* <Form /> */}
+      {/* <LifecycleA /> */}
+      {/* <ClassCounter /> */}
+      <HookCounter />
     </div>
   );
 }
