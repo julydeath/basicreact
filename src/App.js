@@ -2,8 +2,10 @@
 //import Welcome from "./components/Welcome";
 // import Hello from "./components/Hello";
 // import Message from "./components/Message";
+// import Counter from "./components/Counter";
+// import FunctionClick from "./components/FunctionClick";
 
-import Counter from "./components/Counter";
+//import ClassClicked from "./components/ClassClick";
 
 function App() {
   return (
@@ -20,7 +22,9 @@ function App() {
       <Welcome name="akhil" work="master" /> */}
       {/* <Hello /> */}
       {/* <Message /> */}
-      <Counter />
+      {/* <Counter /> */}
+      {/* <FunctionClick /> */}
+      {/* <ClassClicked></ClassClicked> */}
     </div>
   );
 }

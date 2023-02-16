@@ -4,22 +4,22 @@ class Counter extends Component {
   constructor() {
     super();
     this.state = {
-      counter: 0,
+      count: 0,
     };
   }
 
-  handleclick() {
+  handleClick() {
     this.setState({
-      counter: this.state.counter + 1,
+      count: this.state.count + 1,
     });
   }
 
   render() {
     return (
-      <>
-        this is counter : {this.state.counter}
-        <button onClick={() => this.handleclick()}>click me</button>
-      </>
+      <div>
+        <h1>This is counter:{this.state.count}</h1>
+        <button onClick={() => this.handleClick()}>Click me</button>
+      </div>
     );
   }
 }
