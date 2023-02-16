@@ -8,8 +8,11 @@
 //import ClassClicked from "./components/ClassClick";
 //import LifecycleA from "./components/LifecycleA";
 //import ClassCounter from "./components/ClassCounter";
+//import HookCounter from "./components/HookCounter";
+//import ObjuseState from "./components/ObjuseState";
+//import ArrayuseState from "./components/ArrayuseState";
 
-import HookCounter from "./components/HookCounter";
+import { CounteruseEffect } from "./components/CounteruseEffect";
 
 function App() {
   return (
@@ -32,7 +35,10 @@ function App() {
       {/* <Form /> */}
       {/* <LifecycleA /> */}
       {/* <ClassCounter /> */}
-      <HookCounter />
+      {/* <HookCounter /> */}
+      {/* <ObjuseState /> */}
+      {/* <ArrayuseState /> */}
+      <CounteruseEffect />
     </div>
   );
 }
