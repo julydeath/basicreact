@@ -5,6 +5,8 @@
 // import Counter from "./components/Counter";
 // import FunctionClick from "./components/FunctionClick";
 
+import Form from "./components/Form";
+
 //import ClassClicked from "./components/ClassClick";
 
 function App() {
@@ -25,6 +27,7 @@ function App() {
       {/* <Counter /> */}
       {/* <FunctionClick /> */}
       {/* <ClassClicked></ClassClicked> */}
+      <Form />
     </div>
   );
 }
