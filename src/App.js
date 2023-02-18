@@ -11,8 +11,9 @@
 //import HookCounter from "./components/HookCounter";
 //import ObjuseState from "./components/ObjuseState";
 //import ArrayuseState from "./components/ArrayuseState";
+//import { CounteruseEffect } from "./components/CounteruseEffect";
 
-import { CounteruseEffect } from "./components/CounteruseEffect";
+import DataFetching from "./components/DataFetching";
 
 function App() {
   return (
@@ -38,7 +39,8 @@ function App() {
       {/* <HookCounter /> */}
       {/* <ObjuseState /> */}
       {/* <ArrayuseState /> */}
-      <CounteruseEffect />
+      {/* <CounteruseEffect /> */}
+      <DataFetching />
     </div>
   );
 }
