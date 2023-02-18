@@ -1,3 +1,4 @@
+import React from "react";
 //import Greet from "./components/Greet";
 //import Welcome from "./components/Welcome";
 // import Hello from "./components/Hello";
@@ -12,8 +13,12 @@
 //import ObjuseState from "./components/ObjuseState";
 //import ArrayuseState from "./components/ArrayuseState";
 //import { CounteruseEffect } from "./components/CounteruseEffect";
+//import DataFetching from "./components/DataFetching";
 
-import DataFetching from "./components/DataFetching";
+import ComponentC from "./components/ComponentC";
+
+export const UserContext = React.createContext();
+export const NewContext = React.createContext();
 
 function App() {
   return (
@@ -40,7 +45,12 @@ function App() {
       {/* <ObjuseState /> */}
       {/* <ArrayuseState /> */}
       {/* <CounteruseEffect /> */}
-      <DataFetching />
+      {/* <DataFetching /> */}
+      <UserContext.Provider value={"manoj"}>
+        <NewContext.Provider value={"kumar"}>
+          <ComponentC />
+        </NewContext.Provider>
+      </UserContext.Provider>
     </div>
   );
 }
